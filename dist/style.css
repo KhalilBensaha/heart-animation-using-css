@@ -1,6 +1,10 @@
 body {
   margin: 0;
   overflow: hidden;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 320px;
 }
 
 .controls {
@@ -10,6 +14,13 @@ body {
   z-index: 1;
 }
 
+.heart{
+  z-index: 1;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
 canvas {
   position: absolute;
 }
